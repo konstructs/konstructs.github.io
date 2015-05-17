@@ -19,6 +19,7 @@ Download, unzip and start konstructs-client.exe
 Download, unpack and start konstructs-client.
 
 ### Debian (Ubuntu)
+ [ ![Download](https://api.bintray.com/packages/konstructs/debian/client/images/download.svg) ](https://bintray.com/konstructs/debian/client/_latestVersion)
 
 Import Bintray's signing key
 ```
