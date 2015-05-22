@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Download the game
+permalink: download/
 ---
 
 The game is early pre-alpha and there are no releases yet, these 
@@ -32,10 +33,10 @@ echo 'deb https://dl.bintray.com/konstructs/debian jessie main' | sudo tee /etc/
 
 Update the package database and install the package `konstructs-client`:
 
-```
+`
 sudo apt-get update
 sudo apt-get install konstructs-client
-```
+`
 
 Start the game from a terminal, or from your main menu under Games.
 

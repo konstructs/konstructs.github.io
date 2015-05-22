@@ -1,0 +1,7 @@
+
+build:
+	docker build -t konstructs_www .
+
+run:
+	docker run -ti -v $$PWD:/www -p 4000:4000 konstructs_www \
+		bundle exec jekyll serve -w -V --trace

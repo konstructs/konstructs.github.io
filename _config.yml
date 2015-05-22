@@ -9,3 +9,5 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+    - Dockerfile
+    - Makefile
