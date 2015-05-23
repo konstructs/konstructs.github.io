@@ -3,6 +3,13 @@ description: An open source Infiniminer/Minecraft inspired multiplayer game
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title/
+navigation:
+  - name: Home
+    url: /
+  - name: Download
+    url: /download/
+  - name: GitHub
+    url: "http://github.com/konstructs"
 exclude:
     - Gemfile
     - Gemfile.lock

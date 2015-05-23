@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: konstructs
 title: About the game
 ---
 
@@ -14,11 +14,3 @@ The game is fully playable and we are running a server at play.konstructs.org. J
 We have builds for Windows, Linux and the game compiles on OS X.
 [Download](download)
 
-## Video
-<iframe width="640" height="480" src="https://www.youtube.com/embed/KX4UyhOuuh0?rel=0" frameborder="0" allowfullscreen></iframe>
-
-## Screenshots
-
-[![Mountain](images/screenshots/mountain_small.png "Mountain")](images/screenshots/mountain.png)
-[![Waterside fort](images/screenshots/waterfort_small.png "Waterside fort")](images/screenshots/waterfort.png)
-[![Forest temple](images/screenshots/foresttemple_small.png "Forest temple")](images/screenshots/foresttemple.png)

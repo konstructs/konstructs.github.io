@@ -1,3 +1,4 @@
+all: build run
 
 build:
 	docker build -t konstructs_www .
