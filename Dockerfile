@@ -10,6 +10,7 @@ RUN apt-get -y install \
 		zlib1g-dev \
 		nodejs
 RUN gem install --no-document bundler
+RUN gem install sass -v 3.4.13
 
 RUN mkdir /www
 WORKDIR /www
