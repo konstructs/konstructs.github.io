@@ -8,6 +8,8 @@ navigation:
     url: /
   - name: Download
     url: /download/
+  - name: About
+    url: /about/
   - name: GitHub
     url: "http://github.com/konstructs"
 exclude:

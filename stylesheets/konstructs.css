@@ -11,6 +11,10 @@ img {
   height: auto;
 }
 
+blockquote {
+  font-size: 97% !important;
+}
+
 @media (max-width: 992px) {
   .sidebar {
     padding-top: 2em;
