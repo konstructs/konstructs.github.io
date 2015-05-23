@@ -2,6 +2,10 @@ body {
   padding-top: 80px;
 }
 
+p {
+  font-size: 120%;
+}
+
 img {
   width: 100%;
   height: auto;
