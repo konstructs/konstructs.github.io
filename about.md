@@ -6,7 +6,7 @@ permalink: about/
 
 # The beginning
 
-It all started a winter day the 1st of january 2014 in Stockholm, Sweden. 
+It all started a winter day the 1st of january 2015 in Stockholm, Sweden. 
 Two friends started to tinker and experiment with a game written by 
 Michael Fogleman called Craft. Our visions started to take shape and we 
 quickly realized that our take on the game was very different compared to 
