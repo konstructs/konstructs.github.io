@@ -2,6 +2,6 @@
 
 ## Screenshots
 
-[![Mountain](/images/screenshots/mountain_small.png "Mountain")](images/screenshots/mountain.png)
-[![Waterside fort](/images/screenshots/waterfort_small.png "Waterside fort")](images/screenshots/waterfort.png)
-[![Forest temple](/images/screenshots/foresttemple_small.png "Forest temple")](images/screenshots/foresttemple.png)
+[![Mountain](/images/screenshots/mountain_small.png "Mountain")](/images/screenshots/mountain.png)
+[![Waterside fort](/images/screenshots/waterfort_small.png "Waterside fort")](/images/screenshots/waterfort.png)
+[![Forest temple](/images/screenshots/foresttemple_small.png "Forest temple")](/images/screenshots/foresttemple.png)
