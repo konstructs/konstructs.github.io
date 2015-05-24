@@ -1,0 +1,30 @@
+{% include header.html %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8">
+      {% for post in site.posts %}
+        <div class="post">
+          <p><em>{{ post.title }}</em> written {{ post.date | date_to_string }}</p>
+          {{ post.content }}
+          <p class="text-right"><em>Written by {{ post.by }}</em></p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="col-sm-4">
+      <h3>All news</h3>
+      {% for post in site.posts %}
+        <li class="list-unstyled">
+          <a href="{{ post.url }}">
+            {{ post.date | date_to_string }} - 
+            {{ post.title }} -
+            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+          </a>
+        </li>
+      <h3>Video</h3>
+      {% endfor %}
+      {% capture inc %}{% include sidebar.md %}{% endcapture %}
+      {{ inc | markdownify }}
+    </div>
+  </div>
+</div>
+{% include footer.html %}

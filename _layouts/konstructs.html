@@ -1,56 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Konstructs : Web pages for konstructs.org">
-    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/konstructs.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script src="/scripts/konstructs.js"></script>
-	<title>{{ site.title }}</title>
-  </head>
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">{{ site.title }}</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            {% assign url = page.url|remove:'index.html' %}
-            {% for link in site.navigation %}
-              {% if url == link.url %}
-                <li class="active"><a href="{{ link.url }}">{{ link.name }}</a></li>
-              {% else %}
-                <li><a href="{{ link.url }}">{{ link.name }}</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8">
-          {{ content }}
-        </div>
-        <div class="col-xs-12 col-sm-4 sidebar">
-          {% capture inc %}{% include sidebar.md %}{% endcapture %}
-          {{ inc | markdownify }}
-        </div>
-      <div>
+{% include header.html %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8">
+      {{ content }}
     </div>
-  </body>
-</html>
+    <div class="col-xs-12 col-sm-4 sidebar">
+      {% capture inc %}{% include sidebar.md %}{% endcapture %}
+      {{ inc | markdownify }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>News</h2>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">
+              {{ post.date | date_to_string }} - 
+              {{ post.title }} - 
+              {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% include footer.html %}

@@ -8,6 +8,8 @@ navigation:
     url: /
   - name: Download
     url: /download/
+  - name: News
+    url: /news/
   - name: About
     url: /about/
   - name: GitHub
