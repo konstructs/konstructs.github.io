@@ -3,26 +3,13 @@
   <div class="row">
     <div class="col-xs-12 col-sm-8">
       {{ content }}
+      {% if page.news %}
+        {% include news.html %}
+      {% endif %}
     </div>
     <div class="col-xs-12 col-sm-4 sidebar">
       {% capture inc %}{% include sidebar.md %}{% endcapture %}
       {{ inc | markdownify }}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>News</h2>
-      <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">
-              {{ post.date | date_to_string }} - 
-              {{ post.title }} - 
-              {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
     </div>
   </div>
 </div>

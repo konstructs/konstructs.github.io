@@ -1,6 +1,7 @@
 ---
 layout: konstructs
 title: About the game
+news: True
 ---
 
 [![Konstructs](images/screenshots/konstructs_small.png "Konstructs!")](images/screenshots/konstructs.png)
