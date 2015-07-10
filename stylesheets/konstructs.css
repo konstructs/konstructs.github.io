@@ -20,6 +20,15 @@ h1 {
 img {
   width: 100%;
   height: auto;
+  box-shadow: 2px 2px 10px #aaa;
+}
+
+iframe {
+  box-shadow: 2px 2px 10px #aaa !important;
+}
+
+.btn {
+  box-shadow: 1px 1px 5px #aaa !important;
 }
 
 blockquote {
@@ -38,6 +47,10 @@ footer {
 div.row {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+div.jumbotron {
+  box-shadow: 2px 2px 10px #aaa;
 }
 
 @media (max-width: 992px) {
