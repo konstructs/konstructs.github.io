@@ -9,14 +9,14 @@ RUN apt-get -y install \
 		build-essential \
 		zlib1g-dev \
 		nodejs
-RUN gem install --no-document bundler
-RUN gem install sass -v 3.4.13
+RUN gem install github-pages bundler
+
+RUN adduser --gecos FALSE --disabled-password www
 
 RUN mkdir /www
 WORKDIR /www
 ADD Gemfile /www/Gemfile
+RUN chown www:www . Gemfile
 RUN bundle install
 
-RUN adduser --gecos FALSE --disabled-password www
-RUN chown www:www . Gemfile
 USER www
