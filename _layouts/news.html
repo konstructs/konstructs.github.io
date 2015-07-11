@@ -3,11 +3,13 @@
   <div class="row">
     <div class="col-xs-12 col-sm-8">
       {% for post in site.posts %}
-        <div class="post">
-          <p><em>{{ post.title }}</em> written {{ post.date | date_to_string }}</p>
-          {{ post.content }}
-          <p class="text-right"><em>Written by {{ post.by }}</em></p>
-        </div>
+        {% if post.url == page.url or page.url == '/news/' %}
+          <div class="post">
+            <p><em>{{ post.title }}</em> written {{ post.date | date_to_string }}</p>
+            {{ post.content }}
+            <p class="text-right"><em>Written by {{ post.by }}</em></p>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
     <div class="col-sm-4">
