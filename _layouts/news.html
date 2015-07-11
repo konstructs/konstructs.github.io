@@ -22,8 +22,8 @@
             {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
           </a>
         </li>
-      <h3>Video</h3>
       {% endfor %}
+      <h3>Video</h3>
       {% capture inc %}{% include sidebar.md %}{% endcapture %}
       {{ inc | markdownify }}
     </div>
