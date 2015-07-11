@@ -26,7 +26,7 @@ konstructs-client.exe play.konstructs.org username password
 We have automatic 64-bit binaries built and packages for Linux. The tar.bz2 file should work on most Linux distributions with the appropriate libraries installed. We also provide a deb package for Debian based distributions, like for example Ubuntu.
 
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client.tar.bz2">Download tar.bz2 (development version)</a>
-<a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/debian/pool/main/k/konstructs-client/konstructs-client_1-342_amd64.deb">Download deb (development version)</a>
+<a class="btn btn-warning" href="https://dl.bintray.com/konstructs/debian/pool/main/k/konstructs-client/">Download deb (development version)</a>
 
 The deb will install the game under Games in your menu. If you are using the tar.bz2 version, extract the files and run it like this.
 
