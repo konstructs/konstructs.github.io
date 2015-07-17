@@ -12,12 +12,9 @@ The game is early pre-alpha so there are no releases yet, these builds are build
 
 Windows builds are cross compiled and packaged from a Linux host 
 using MinGW. A 32-bit binary are produced that should work on most 
-Windows installations. There are no GUI to connect to a server yet
-so you need to launch the game from the command line like this.
+Windows installations.
 
-`
-konstructs-client.exe play.konstructs.org username password
-`
+Press T when the program starts, enter `play.konstructs.org` and press enter. The client will then ask for a username and a password. A new server account will be created automatically if needed. 
 
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/windows/konstructs-client.zip">Download development version</a>
 
@@ -28,11 +25,7 @@ We have automatic 64-bit binaries built and packages for Linux. The tar.bz2 file
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client.tar.bz2">Download tar.bz2 (development version)</a>
 <a class="btn btn-warning" href="https://dl.bintray.com/konstructs/debian/pool/main/k/konstructs-client/">Download deb (development version)</a>
 
-The deb will install the game under Games in your menu. If you are using the tar.bz2 version, extract the files and run it like this.
-
-`
-./konstructs-client play.konstructs.org username password
-`
+Press T when the program starts, enter `play.konstructs.org` and press enter. The client will then ask for a username and a password. A new server account will be created automatically if needed. 
 
 We also have a deb repo over at Bintray for you Debian/Ubuntu users. The advantage is that you will get updates to the client with your normal OS updates. If you like to add the repository, do the following.
 
@@ -56,6 +49,8 @@ sudo apt-get install konstructs-client
 ## OS X
 
 We do not have any automatic builds for OS X because we do not have the hardware to nether run or test the game. We have reports on successful builds on latest OS X so you should be able to build it from source, for that, follow the instructions over at [GitHub](https://github.com/konstructs/client/blob/master/BUILD.md).
+
+Press T when the program starts, enter `play.konstructs.org` and press enter. The client will then ask for a username and a password. A new server account will be created automatically if needed. 
 
 # Server
 
