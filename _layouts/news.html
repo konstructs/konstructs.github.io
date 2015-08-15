@@ -17,9 +17,8 @@
       {% for post in site.posts %}
         <li class="list-unstyled">
           <a href="{{ post.url }}">
-            {{ post.date | date_to_string }} - 
-            {{ post.title }} -
-            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            {{ post.date | date_to_string }} -
+            {{ post.title }}
           </a>
         </li>
       {% endfor %}
