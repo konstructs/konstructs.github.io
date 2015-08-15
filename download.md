@@ -16,15 +16,15 @@ Windows installations.
 
 Press T when the program starts, enter `play.konstructs.org` and press enter. The client will then ask for a username and a password. A new server account will be created automatically if needed. 
 
-<a class="btn btn-primary" href="https://github.com/konstructs/client/releases/download/1/konstructs-client-1-windows.zip">Release 1</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/windows/konstructs-client-1.zip">Release 1</a>
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/windows/konstructs-client.zip">Development version</a>
 
 ## Linux
 
 We have automatic 64-bit binaries built and packages for Linux. The tar.bz2 file should work on most Linux distributions with the appropriate libraries installed. We also provide a deb package for Debian based distributions, like for example Ubuntu.
 
-<a class="btn btn-primary" href="https://github.com/konstructs/client/releases/download/1/konstructs-client-1-linux.tar.bz2">Release 1 (tar.bz2)</a>
-<a class="btn btn-primary" href="https://github.com/konstructs/client/releases/download/1/konstructs-client_1-536_amd64.deb">Release 1 (deb)</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client-1.tar.bz2">Release 1 (tar.bz2)</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/debian/pool/main/k/konstructs-client/konstructs-client_1-536_amd64.deb">Release 1 (deb)</a>
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client.tar.bz2">Development version (tar.bz2)</a>
 <a class="btn btn-warning" href="https://dl.bintray.com/konstructs/debian/pool/main/k/konstructs-client/">Development version (deb)</a>
 
