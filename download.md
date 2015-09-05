@@ -19,15 +19,15 @@ Right click on konstructs.exe -> Properties -> Tab "Compatibility" -> Check "Dis
 
 Press T when the program starts, enter `play.konstructs.org` and press enter. The client will then ask for a username and a password. A new server account will be created automatically if needed. 
 
-<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/windows/konstructs-client-1.zip">Release 1</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/windows/konstructs-client-2-windows.zip">Release 2</a>
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/windows/konstructs-client.zip">Development version</a>
 
 ## Linux
 
 We have automatic 64-bit binaries built and packages for Linux. The tar.bz2 file should work on most Linux distributions with the appropriate libraries installed. We also provide a deb package for Debian based distributions, like for example Ubuntu.
 
-<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client-1.tar.bz2">Release 1 (tar.bz2)</a>
-<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/debian/pool/main/k/konstructs-client/konstructs-client_1-536_amd64.deb">Release 1 (deb)</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client-2-linux.tar.bz2">Release 2 (tar.bz2)</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/debian/pool/main/k/konstructs-client/konstructs-client_2-628_amd64.deb">Release 2 (deb)</a>
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client.tar.bz2">Development version (tar.bz2)</a>
 <a class="btn btn-warning" href="https://dl.bintray.com/konstructs/debian/pool/main/k/konstructs-client/">Development version (deb)</a>
 
@@ -62,5 +62,5 @@ Press T when the program starts, enter `play.konstructs.org` and press enter. Th
 
 You only need the server if you like to host your own private server, play offline or prefer to play alone. For everything else, you have a public server hosted at `play.konstructs.org`.
 
-<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/jars/konstructs-server-build-v0.1.7.jar">0.1.7 (for client release 1)</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/jars/konstructs-server-build-v0.1.8.jar">0.1.8 (for client release 2)</a>
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/jars/konstructs-server-build-dev.jar">Development version</a>
