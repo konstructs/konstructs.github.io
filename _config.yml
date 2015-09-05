@@ -10,6 +10,8 @@ navigation:
     url: /download/
   - name: News
     url: /news/
+  - name: Documentation
+    url: /documentation/
   - name: About
     url: /about/
   - name: GitHub
