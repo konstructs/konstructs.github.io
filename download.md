@@ -6,7 +6,7 @@ permalink: download/
 
 # Client
 
-The game is early pre-alpha so there are no releases yet, these builds are build from the latest commit in the master branch. There are usually tested and usable, but if you finds some problem please report them in the [issue tracker](https://github.com/konstructs/client/issues).
+The orange builds are built from the latest commit in the master branch. There are usually tested and usable, but if you finds some problem please report them in the [issue tracker](https://github.com/konstructs/client/issues).
 
 ## Windows
 

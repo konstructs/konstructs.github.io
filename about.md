@@ -36,9 +36,8 @@ our public server, but for a private world, you need both.
 > server. The server then takes the appropriate action like a block placement, 
 > removal or maybe opens a chest.
 
-> We have also added a inventory, managed by the server. We have plans to extend 
-> it to chests, backpacks and machines later on. We also have plans for crafting 
-> but that is not our number one priority at the moment.
+> We have also added a inventory, backpacks (chest) and konstructing (crafting).
+> All managed by the server. We have plans to extend and add machines later on.
 
 > In the future, we also plan to manage the available blocks and textures from 
 > the server.
@@ -70,5 +69,5 @@ extendability and huge worlds with server driven game logic.
 
 ### Server driven game logic - true multiplayer game
 
-> To keep the game extremely extensible, while still keeping the client simple, all game logic is implemented server side. This means that for the player there is no need to download different plugins or versions of the client to play different worlds. Plugins mainly interact with the block world and/or using one of the simple features implemented in the client (like the inventory). We are also planning on adding some kind of crafting support.
+> To keep the game extremely extensible, while still keeping the client simple, all game logic is implemented server side. This means that for the player there is no need to download different plugins or versions of the client to play different worlds. Plugins mainly interact with the block world and/or using one of the simple features implemented in the client (like the inventory).
 
