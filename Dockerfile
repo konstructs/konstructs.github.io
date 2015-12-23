@@ -9,7 +9,7 @@ RUN apt-get -y install \
 		build-essential \
 		zlib1g-dev \
 		nodejs
-RUN gem install github-pages bundler
+RUN gem install github-pages bundler minitest
 
 RUN adduser --gecos FALSE --disabled-password www
 
