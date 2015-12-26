@@ -45,6 +45,7 @@ The client is the user facing application, the actual software that needs to be 
 
 The server core APIs need to be finalized and documented to provide the needed tools to extend and add to the game with the help of plugins. Write several plugins both to make the game more fun and interesting, but also to test out the plugin APIs.
 
+- <span class="glyphicon glyphicon-link"></span> [konstructs/server - Release 3](https://github.com/konstructs/server/milestones/Release%203)
 - <span class="glyphicon glyphicon-link"></span> [konstructs/server - Undecided - Short-term](https://github.com/konstructs/server/milestones/Undecided%20-%20Short-term)
 
 ## Long term goals
