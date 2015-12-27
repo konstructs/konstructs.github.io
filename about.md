@@ -6,24 +6,24 @@ permalink: about/
 
 # The beginning
 
-It all started a winter day the around the new year 2014/2015 in Stockholm, Sweden. 
-Two friends started to tinker and experiment with a game written by 
-Michael Fogleman called Craft. Our visions started to take shape and we 
-quickly realized that our take on the game was very different compared to 
+It all started a winter day the around the new year 2014/2015 in Stockholm, Sweden.
+Two friends started to tinker and experiment with a game written by
+Michael Fogleman called Craft. Our visions started to take shape and we
+quickly realized that our take on the game was very different compared to
 Fogleman’s game, so we forked it.
 
-The original was based around the client, there was a multiplayer server 
-but that was more like a simple relay. All the logic happened in the client. 
+The original was based around the client, there was a multiplayer server
+but that was more like a simple relay. All the logic happened in the client.
 Nothing wrong with that but we had other plans...
 
-Since then, we have stripped the client of features. The idea is to make it 
-a dumb viewer and make all decisions in the server. This adds some interesting 
+Since then, we have stripped the client of features. The idea is to make it
+a dumb viewer and make all decisions in the server. This adds some interesting
 problems but overall it works really well!
 
 # Architecture
 
-The game is based in two parts, a client written in C that we forked from 
-Fogleman, and a server written in Scala. To test the game you can connect to 
+The game is based in two parts, a client written in C that we forked from
+Fogleman, and a server written in Scala. To test the game you can connect to
 our public server, but for a private world, you need both.
 
 ## The client
@@ -31,20 +31,20 @@ our public server, but for a private world, you need both.
 > Our client processes and receives huge amount of block data from the server,
 > we have added both compression and a binary extension to speed it up.
 
-> The client is really stupid, we have removed concepts like block placements. 
-> The client only sends "clicked at x, y, z with the right mouse button" to the 
-> server. The server then takes the appropriate action like a block placement, 
+> The client is really stupid, we have removed concepts like block placements.
+> The client only sends "clicked at x, y, z with the right mouse button" to the
+> server. The server then takes the appropriate action like a block placement,
 > removal or maybe opens a chest.
 
-> We have also added a inventory, backpacks (chest) and konstructing (crafting).
+> We have also added a inventory, backpacks (chest) and crafting.
 > All managed by the server. We have plans to extend and add machines later on.
 
-> In the future, we also plan to manage the available blocks and textures from 
+> In the future, we also plan to manage the available blocks and textures from
 > the server.
 
 <div class="jumbotron lead">
-All these things means that we will be able to play at different servers with 
-a wide range of mods with the same client. It will also be extremely hard to 
+All these things means that we will be able to play at different servers with
+a wide range of mods with the same client. It will also be extremely hard to
 cheat when most of the logic is located in the server.
 </div>
 
@@ -70,4 +70,3 @@ extendability and huge worlds with server driven game logic.
 ### Server driven game logic - true multiplayer game
 
 > To keep the game extremely extensible, while still keeping the client simple, all game logic is implemented server side. This means that for the player there is no need to download different plugins or versions of the client to play different worlds. Plugins mainly interact with the block world and/or using one of the simple features implemented in the client (like the inventory).
-
