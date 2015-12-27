@@ -1,12 +1,19 @@
 ---
 layout: konstructs
-title: Konstructing
-permalink: documentation/konstructing/
+title: Crafting
+permalink: documentation/crafting/
 ---
 
-# Konstructing (crafting)
+# Crafting
 
-The server is highly customizable so the receipts may change from server to server, these are the receipts included in the default installation running at `play.konstructs.org`.
+Crafting is done using a crafting block. On this page the yellow "tool sack" is used. This is part of the core server and will usually be provided to all new players when they initially spawn. To open the "tool sack" select it in the belt and press either the "third mouse button" (this is usually the wheel) or "E". This is an overview of the "tool sack" and the rest of the HUD.
+
+![Tool sack in HUD](/images/documentation/HUD.png)
+<p class="image-with-caption">
+Overview of konstructs HUD with open tool sack kindly provided by[Henningstone](https://github.com/Henningstone)
+</p>
+
+To craft something use the crafting area. The result (if the pattern matches a craftable block) is shown in the crafting product area. Click it to craft a single block. Here are the recipes that comes with the core server running at `play.konstructs.org`. The server is highly customizable so the receipts may change from server to server.
 
 ## Planks
 

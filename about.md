@@ -36,7 +36,7 @@ our public server, but for a private world, you need both.
 > server. The server then takes the appropriate action like a block placement,
 > removal or maybe opens a chest.
 
-> We have also added a inventory, backpacks (chest) and konstructing (crafting).
+> We have also added a inventory, backpacks (chest) and crafting.
 > All managed by the server. We have plans to extend and add machines later on.
 
 > In the future, we also plan to manage the available blocks and textures from
