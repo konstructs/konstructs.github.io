@@ -14,9 +14,6 @@ Windows builds are cross compiled and packaged from a Linux host
 using MinGW. A 32-bit binary are produced that should work on most 
 Windows installations.
 
-We recommend people who use Aero to disable it before running the game. Follow the instructions that was kindly provided by [Henningstone](https://github.com/Henningstone):
-Right click on konstructs.exe -> Properties -> Tab "Compatibility" -> Check "Disable desktop composition"
-
 Press T when the program starts, enter `play.konstructs.org` and press enter. The client will then ask for a username and a password. A new server account will be created automatically if needed. 
 
 <a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/windows/konstructs-client-2-windows.zip">Release 2</a>
