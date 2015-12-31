@@ -34,7 +34,7 @@ It is important for us to make a fun game with the usual core parts like buildin
 
 The client is the user facing application, the actual software that needs to be downloaded and installed at the player's computer so we need to provide a stable, good looking and easy to use application. The target platforms are Linux, Windows and OS X.
 
-- <span class="glyphicon glyphicon-link"></span> [konstructs/client - Release 3](https://github.com/konstructs/client/milestones/Release%203)
+- <span class="glyphicon glyphicon-link"></span> [konstructs/client - Release 4](https://github.com/konstructs/client/milestones/Release%204)
 - <span class="glyphicon glyphicon-link"></span> [konstructs/client - Undecided - Short-term](https://github.com/konstructs/client/milestones/Undecided%20-%20Short-term)
 
 ### The Server
@@ -45,7 +45,7 @@ The client is the user facing application, the actual software that needs to be 
 
 The server core APIs need to be finalized and documented to provide the needed tools to extend and add to the game with the help of plugins. Write several plugins both to make the game more fun and interesting, but also to test out the plugin APIs.
 
-- <span class="glyphicon glyphicon-link"></span> [konstructs/server - Release 3](https://github.com/konstructs/server/milestones/Release%203)
+- <span class="glyphicon glyphicon-link"></span> [konstructs/server - Release 4](https://github.com/konstructs/server/milestones/Release%204)
 - <span class="glyphicon glyphicon-link"></span> [konstructs/server - Undecided - Short-term](https://github.com/konstructs/server/milestones/Undecided%20-%20Short-term)
 
 ## Long term goals
