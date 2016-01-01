@@ -55,5 +55,5 @@ We do not have any automatic builds for OS X because we do not have the hardware
 
 You only need the server if you like to host your own private server, play offline or prefer to play alone. For everything else, you have a public server hosted at `play.konstructs.org`.
 
-<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/jars/konstructs-server-build-v0.1.10.jar">0.1.10 (for client release 3)</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/jars/konstructs-server-build-v0.1.11.jar">0.1.11 (for client release 3)</a>
 <a class="btn btn-warning" href="https://bintray.com/artifact/download/konstructs/jars/konstructs-server-build-dev.jar">Development version</a>
