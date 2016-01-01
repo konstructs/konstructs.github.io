@@ -23,8 +23,7 @@ problems but overall it works really well!
 # Architecture
 
 The game is based in two parts, a client written in C that we forked from
-Fogleman, and a server written in Scala. To test the game you can connect to
-our public server, but for a private world, you need both.
+Fogleman (and since then partly rewriten to C++), and a server written in Scala. To test the game you can connect to our public server, but for a private world, you need both.
 
 ## The client
 
@@ -39,8 +38,7 @@ our public server, but for a private world, you need both.
 > We have also added a inventory, backpacks (chest) and crafting.
 > All managed by the server. We have plans to extend and add machines later on.
 
-> In the future, we also plan to manage the available blocks and textures from
-> the server.
+> The available blocks and textures are send from the server, this make it possible to add blocks to the game with the help of server plugins.
 
 <div class="jumbotron lead">
 All these things means that we will be able to play at different servers with
