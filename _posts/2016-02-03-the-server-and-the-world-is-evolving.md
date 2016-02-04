@@ -1,7 +1,7 @@
 ---
 layout: news
 title: The ever evolving world
-by: Stefan
+by: Petter
 excerpt: The server and the world are evolving
 ---
 
@@ -17,28 +17,41 @@ One of the first questions to be discussed was where do we put the line between 
 
 ![Empty and lifeless world](/images/news/empty-world.png)
 
-Boring. But don't despair, craft some grass,
+<p class="image-with-caption">
+Boring.
+</p>
 
 ![Craft some grass](/images/news/craft-grass.png)
 
-plant it, and watch the world slowly evolve right in front of you.
+<p class="image-with-caption">
+But don't despair, craft some grass,
+</p>
 
 ![Growing grass](/images/news/growing-grass.png)
 
-Yey a flower!
+<p class="image-with-caption">
+plant it, and watch the world slowly evolve right in front of you.
+</p>
+
 
 ![A flower](/images/news/growing-grass-flower.png)
 
-Is that a tree? OMG where did all those trees come from!?
+<p class="image-with-caption">
+Yey a flower!
+</p>
 
 ![A tree](/images/news/growing-tree.png)
+
+<p class="image-with-caption">
+Is that a tree? OMG where did all those trees come from!?
+</p>
 
 # Where to go from here?
 
 Everything in Konstructs is a plugin. The pictures above are the combination of the following three plugins running on a server:
 
-- https://github.com/konstructs/server-plugin-grass
-- https://github.com/konstructs/server-plugin-forest
-- https://github.com/konstructs/server-plugin-flowers
+- [The grass plugin](https://github.com/konstructs/server-plugin-grass)
+- [The forest plugin](https://github.com/konstructs/server-plugin-forest)
+- [The flowers plugin](https://github.com/konstructs/server-plugin-flowers)
 
 They are just examples of what you can do to keep the world evolving. Fork one and create something unique for yourself!
