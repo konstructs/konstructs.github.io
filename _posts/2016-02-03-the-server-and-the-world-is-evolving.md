@@ -48,6 +48,12 @@ Is that a tree? OMG where did all those trees come from!?
 
 Everything else is then evolving as you play. This means that when you change the world, the world will react to your changes. It's alive!
 
+![End result](/images/news/growing-result.png)
+
+<p class="image-with-caption">
+Some hours later there a complete forest has evolved!
+</p>
+
 # Where to go from here?
 
 Everything in Konstructs is a plugin. The pictures above are the combination of the following three plugins running on a server:
