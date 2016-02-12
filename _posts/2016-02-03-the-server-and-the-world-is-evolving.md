@@ -51,7 +51,7 @@ Everything else is then evolving as you play. This means that when you change th
 ![End result](/images/news/growing-result.png)
 
 <p class="image-with-caption">
-Some hours later there a complete forest has evolved!
+Some hours later a complete forest has evolved!
 </p>
 
 # Where to go from here?
