@@ -1,6 +1,10 @@
     <!-- Footer -->
     <footer>
-        <div class="container text-center" style="color: {{ text-color|default("black") }}">
+        {% if page.url == '/' %}
+          <div class="container text-center">
+        {% else %}
+          <div class="container text-center" style="color: black">
+        {% endif %}
           This web page, the client and server source code and issue
           tracker is hosted on <a href="https://www.github.com/konstructs/">GitHub</a>.
         </div>
