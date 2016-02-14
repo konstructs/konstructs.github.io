@@ -1,21 +1,14 @@
 title: Konstructs
+email: contact@konstructs.org
+url: https://www.konstracts.org
 description: An open source Infiniminer/Minecraft inspired multiplayer game
-markdown: redcarpet
-highlighter: pygments
+
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+markdown: kramdown
 permalink: /:title/
-navigation:
-  - name: Home
-    url: /
-  - name: Download
-    url: /download/
-  - name: News
-    url: /news/
-  - name: Documentation
-    url: /documentation/
-  - name: About
-    url: /about/
-  - name: GitHub
-    url: "http://github.com/konstructs"
 exclude:
     - Gemfile
     - Gemfile.lock
@@ -24,3 +17,4 @@ exclude:
     - CNAME
     - Dockerfile
     - Makefile
+

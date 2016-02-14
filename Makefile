@@ -9,3 +9,6 @@ run: build
 debug: build
 	docker run -ti -v $$PWD:/www/site -p 4000:4000 konstructs_www \
 		bash
+
+clean:
+	rm Gemfile.lock
