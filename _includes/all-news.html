@@ -1,7 +1,7 @@
     <!-- Contact Section -->
     <section id="news" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 blogpost">
+            <div class="col-lg-12 blogpost">
                 <h2>News</h2>
 
                 {% for post in site.posts %}
@@ -17,10 +17,15 @@
 
                 {% if page.url == '/news/' %}
                   {% for post in site.posts %}
-                    <a href="{{ post.url }}">
-                      <h3>{{ post.title }}</h3>
-                      <p>written {{ post.date | date_to_string }}</p>
-                    </a>
+                    {% if post.url == site.posts[0].url %}
+                        <h3>{{ post.title }}</h3>
+                        <p>written {{ post.date | date_to_string }}</p>
+                        <p>{{ post.content }}</p>
+                        <hr>
+                    {% else %}
+                      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                      <p>{{ post.excerpt }}</p>
+                    {% endif %}
                   {% endfor %}
                 {% endif %}
 
