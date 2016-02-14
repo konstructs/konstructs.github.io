@@ -1,5 +1,5 @@
 ---
-layout: konstructs
+layout: page
 title: About Konstructs
 permalink: about/
 ---

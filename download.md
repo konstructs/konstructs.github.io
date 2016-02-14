@@ -1,5 +1,5 @@
 ---
-layout: konstructs
+layout: page
 title: Download the game
 permalink: download/
 ---
