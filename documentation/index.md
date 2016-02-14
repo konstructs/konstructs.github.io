@@ -4,9 +4,26 @@ title: Documentation
 permalink: documentation/
 ---
 
-# Documentation
+## Crafting
 
-* [Crafting](/documentation/crafting)
-* [Roadmap](/documentation/roadmap)
-* [Replace Textures](/documentation/replace-textures)
-* [Client C++ project](http://doc.konstructs.org/client/index.html)
+Crafting turns one block in to another, either by combining blocks and shapes, or through some form of process, like a machine.
+
+[Learn about crafting](/documentation/crafting)
+
+## Roadmap
+
+What is our plans for the future? What is our vision and how can I help?
+
+[Check our the Roadmap](/documentation/roadmap)
+
+## Replace textures
+
+This is a low tech guide how to replace or modify the textures for non-developers.
+
+[Replace Textures](/documentation/replace-textures)
+
+## Client C++ Docs
+
+This is the Doxygen generated docs.
+
+[Client C++ project](http://doc.konstructs.org/client/index.html)
