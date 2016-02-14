@@ -365,3 +365,16 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.blogpost img {
+  max-width: 100%;
+}
+
+.blogpost li {
+  font-size: 120%;
+}
+
+.image-with-caption {
+  margin-top: -1.5em;
+  font-style: italic;
+}
