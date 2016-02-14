@@ -1,8 +1,18 @@
-<h2>News</h2>
-{% for post in site.posts %}
-<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-{{ post.date | date_to_string }} -
-<a href="{{ post.url }}">
-{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-</a>
-{% endfor %}
+    <!-- Contact Section -->
+    <section id="news" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Latest Update</h2>
+                <p>
+                  <a href="{{ site.posts[0].url }}">
+                    <em>{{ site.posts[0].title }}
+                    - {{ site.posts[0].date | date_to_string }}
+                  </a>
+                </p>
+                <p>{{ site.posts[0].excerpt }}</p>
+                <p>
+                  <a href="/news/" class="btn btn-primary">Read more news</a>
+                </p>
+            </div>
+        </div>
+    </section>

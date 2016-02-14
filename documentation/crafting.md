@@ -1,5 +1,5 @@
 ---
-layout: konstructs
+layout: page
 title: Crafting
 permalink: documentation/crafting/
 ---

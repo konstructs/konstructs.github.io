@@ -33,4 +33,4 @@ ADD Gemfile /www/Gemfile
 RUN bash -c '. $HOME/.rvm/scripts/rvm && bundle install'
 
 WORKDIR /www/site
-CMD bash -c '. $HOME/.rvm/scripts/rvm && bundle exec jekyll serve -w -V --trace'
+CMD bash -c '. $HOME/.rvm/scripts/rvm && bundle exec jekyll serve -w -V --host 0.0.0.0 --trace'

@@ -1,5 +1,5 @@
 ---
-layout: konstructs
+layout: page
 title: Replace Textures
 permalink: documentation/replace-textures/
 ---
