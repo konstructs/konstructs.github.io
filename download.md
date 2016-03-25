@@ -39,6 +39,7 @@ sudo apt-get update
 `
 
 Now search for konstructs-client to install the game, or type:
+
 `
 sudo apt-get install konstructs-client
 `
