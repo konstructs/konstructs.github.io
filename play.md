@@ -7,7 +7,7 @@ permalink: play/
 # Playing Konstructs
 
 Konstructs is a creative game that lets you build and evolve a world
-constructed from big cubes. If you have player Minecraft or
+constructed from big cubes. If you have played Minecraft or
 Infiniminer you will be familiar with the basic concept of this game.
 
 ## Getting started
@@ -56,7 +56,7 @@ way. When you have selected the slot in your belt that contains the
 "tool sack", you can press either <code>E</code> or the
 <code>middle mouse button</code> to open the tool sack. More
 information on how to use the "crafting sack" and some of the items
-that can be crafted, can e found
+that can be crafted, can be found
 [here](http://www.konstructs.org/documentation/crafting/).
 
 ## Having fun
