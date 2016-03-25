@@ -27,3 +27,9 @@ This is a low tech guide how to replace or modify the textures for non-developer
 This is the Doxygen generated docs.
 
 [Client C++ project](http://doc.konstructs.org/client/index.html)
+
+## Server API Javadocs
+
+This is the latest Javadoc API documentation for the public server API.
+
+[Server API documentation](http://doc.konstructs.org/server-api/index.html)
