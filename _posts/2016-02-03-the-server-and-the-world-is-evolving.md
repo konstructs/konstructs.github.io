@@ -63,3 +63,7 @@ Everything in Konstructs is a plugin. The pictures above are the combination of 
 - [The flowers plugin](https://github.com/konstructs/server-plugin-flowers)
 
 They are just examples of what you can do to keep the world evolving. Fork one and create something unique for yourself!
+
+An example of the three plugins above working together:
+
+<iframe width="840" height="630" src="https://www.youtube.com/embed/_zTS04SFXaY" frameborder="0" allowfullscreen></iframe>
