@@ -10,7 +10,7 @@ Crafting is done using a crafting block. On this page the yellow "tool sack" is 
 
 ![Tool sack in HUD](/images/documentation/HUD.png)
 <p class="image-with-caption">
-Overview of konstructs HUD with open tool sack kindly provided by[Henningstone](https://github.com/Henningstone)
+Overview of konstructs HUD with open tool sack kindly provided by <a href="https://github.com/Henningstone">Henningstone</a>.
 </p>
 
 To craft something use the crafting area. The result (if the pattern matches a craftable block) is shown in the crafting product area. Click it to craft a single block. Here are the recipes that comes with the core server running at `play.konstructs.org`. The server is highly customizable so the receipts may change from server to server.
