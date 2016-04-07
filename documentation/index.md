@@ -22,6 +22,12 @@ This is a low tech guide how to replace or modify the textures for non-developer
 
 [Replace Textures](/documentation/replace-textures)
 
+## Server documentation
+
+This is the documentation for how to run your own server.
+
+[Server documentation](/documentation/server/)
+
 ## Client C++ Docs
 
 This is the Doxygen generated docs.
