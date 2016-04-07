@@ -4,12 +4,14 @@ title: Server
 permalink: documentation/server/
 ---
 
+# Server documentation
+
 ## Running
 
 After downloading the server it can be run using the following command:
 
 <code>
-java -cp konstructs-server-build-vx.y.z.jar:plugins/*
+java -cp konstructs-server-build-vx.y.z.jar:plugins/* konstructs.Main
 </code>
 
 Where x, y and z is the version number of the server JAR that you [downloaded](/download/#server).
