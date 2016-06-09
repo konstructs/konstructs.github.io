@@ -24,11 +24,12 @@ You are now playing konstructs, congratulations!
 You can explore the world using the following, possibly familiar,
 controls:
 
-- <code>W</code> moves the character forward
-- <code>A</code> moves the character to the left
-- <code>S</code> moves the character backward
+- <code>W</code> moves the character forward.
+- <code>A</code> moves the character to the left.
+- <code>S</code> moves the character backward.
 - <code>D</code> moves the character right.
 - <code>Space</code> makes the character jump.
+- Holding down <code>left shift</code> makes the character sneak, which prevents it from falling of edges.
 
 Use the mouse the change the direction of the character and to look up
 and down.
