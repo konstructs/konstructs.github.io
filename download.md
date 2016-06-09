@@ -19,7 +19,7 @@ Windows installations.
 We have automatic 64-bit binaries built and packages for Linux. The tar.bz2 file should work on most Linux distributions with the appropriate libraries installed. We also provide a deb package for Debian based distributions, like for example Ubuntu.
 
 <a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client-6-linux.tar.bz2">Release 6 (tar.bz2)</a>
-<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/debian/pool/main/k/konstructs-client/konstructs-client_5-1132_amd64.deb">Release 6 (deb)</a>
+<a class="btn btn-primary" href="https://bintray.com/artifact/download/konstructs/debian/pool/main/k/konstructs-client/konstructs-client_6-1158_amd64.deb">Release 6 (deb)</a>
 
 
 <small><a href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client.tar.bz2">Development version (tar.bz2)</a>, <a href="https://dl.bintray.com/konstructs/debian/pool/main/k/konstructs-client/">Development version (deb)</a></small>
