@@ -4,6 +4,12 @@ title: Documentation
 permalink: documentation/
 ---
 
+## Server documentation
+
+This is the documentation for how to run your own server.
+
+[Server documentation](/documentation/server/)
+
 ## Crafting
 
 Crafting turns one block in to another, either by combining blocks and shapes, or through some form of process, like a machine.
@@ -21,12 +27,6 @@ What is our plans for the future? What is our vision and how can I help?
 This is a low tech guide how to replace or modify the textures for non-developers.
 
 [Replace Textures](/documentation/replace-textures)
-
-## Server documentation
-
-This is the documentation for how to run your own server.
-
-[Server documentation](/documentation/server/)
 
 ## Client C++ Docs
 
