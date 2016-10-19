@@ -21,9 +21,7 @@ debug: build
 version:
 
 	# _includes/download.html
-	sed -i '/RR001/s/-[^-]*-windows/-${RELEASE_NUMBER}-windows/g' _includes/download.html
-	sed -i '/RR002/s/-[^-]*-linux/-${RELEASE_NUMBER}-linux/g' _includes/download.html
-	sed -i '/RR003/s/_[^_]*-[^_]*_/_${RELEASE_NUMBER}_${RELEASE_BUILD_NUMBER}_/g' _includes/download.html
+	sed -i '/RR001/s/${RELEASE_NUMBER}/${RELEASE_NUMBER_NEXT}/g' _includes/download.html
 
 	# download.md
 	sed -i '/RR004/s/-[^-]*-windows/-${RELEASE_NUMBER}-windows/g' download.md
