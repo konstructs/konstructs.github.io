@@ -24,26 +24,6 @@ We have automatic 64-bit binaries built and packages for Linux. The tar.bz2 file
 
 <small><a href="https://bintray.com/artifact/download/konstructs/linux/konstructs-client.tar.bz2">Development version (tar.bz2)</a>, <a href="https://dl.bintray.com/konstructs/debian/pool/main/k/konstructs-client/">Development version (deb)</a></small>
 
-We also have a deb repo over at Bintray for you Debian/Ubuntu users. The advantage is that you will get updates to the client with your normal OS updates. If you like to add the repository, do the following.
-
-`
-sudo apt-key adv --keyserver pgp.mit.edu --recv-key 379CE192D401AB61
-`
-
-`
-echo 'deb https://dl.bintray.com/konstructs/debian jessie main' | sudo tee /etc/apt/sources.list.d/konstructs.list
-`
-
-`
-sudo apt-get update
-`
-
-Now search for konstructs-client to install the game, or type:
-
-`
-sudo apt-get install konstructs-client
-`
-
 ## OS X
 
 We do not have any automatic builds for OS X because we do not have the hardware to nether run or test the game. We have reports on successful builds on latest OS X so you should be able to build it from source, for that, follow the instructions over at [GitHub](https://github.com/konstructs/client/blob/master/BUILD.md).
