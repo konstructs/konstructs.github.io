@@ -21,14 +21,21 @@ debug: build
 version:
 
 	# _includes/download.html
-	sed -i '/RR001/s/${RELEASE_NUMBER}/${RELEASE_NUMBER_NEXT}/g' _includes/download.html
+	sed -i '/RR001/s/\/[0-9]\+\//\/${RELEASE_NUMBER}\//g' _includes/download.html
 
 	# download.md
-	sed -i '/RR004/s/-[^-]*-windows/-${RELEASE_NUMBER}-windows/g' download.md
-	sed -i '/RR005/s/-[^-]*-linux/-${RELEASE_NUMBER}-linux/g' download.md
-	sed -i '/RR006/s/_[^_]*-[^_]*_/_${RELEASE_NUMBER}_${RELEASE_BUILD_NUMBER}_/g' download.md
+	sed -i '/RR004/s/\/[0-9]\+\//\/${RELEASE_NUMBER}\//g' download.md
+	sed -i '/RR004/s/Release [0-9]\+/Release ${RELEASE_NUMBER}/g' download.md
+	sed -i '/RR005/s/\/[0-9]\+\//\/${RELEASE_NUMBER}\//g' download.md
+	sed -i '/RR005/s/Release [0-9]\+/Release ${RELEASE_NUMBER}/g' download.md
+	sed -i '/RR006/s/\/[0-9]\+\//\/${RELEASE_NUMBER}\//g' download.md
+	sed -i '/RR006/s/client_.\+_amd64/client_${RELEASE_NUMBER}-${RELEASE_BUILD_NUMBER}_amd64/g' download.md
 	sed -i '/RR006/s/Release [^ ] /Release ${RELEASE_NUMBER} /g' download.md
-	sed -i '/RR007/s/-v.*.jar/-v${RELEASE_SERVER}.jar/g' download.md
+	sed -i '/RR010/s/\/[0-9]\+\//\/${RELEASE_NUMBER}\//g' download.md
+	sed -i '/RR010/s/client-.*\./client-${RELEASE_NUMBER}-${RELEASE_BUILD_NUMBER}.x86_64./g' download.md
+	sed -i '/RR010/s/Release [^ ] /Release ${RELEASE_NUMBER} /g' download.md
+	sed -i '/RR007/s/\/v[^/]\//\/${RELEASE_SERVER}\//g' download.md
+	sed -i '/RR007/s/-server-.*.jar/-server-${RELEASE_SERVER}.jar/g' download.md
 	sed -i '/RR007/s/Server .*</Server ${RELEASE_SERVER}</g' download.md
 
 	# documentation/roadmap.md
