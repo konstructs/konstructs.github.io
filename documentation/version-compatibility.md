@@ -8,6 +8,7 @@ permalink: documentation/version-compatibility/
 
 You can't mix and match versions freely, from time to time we need to change the protocol used between the server and client, or update the API used by plugins. This page is here to help you figure out what versions works together.
 
+{: .table}
 | Date           | Game Release | Server Release | Client Release | API release |
 |:--------------:|:------------:|:--------------:|:--------------:|:-----------:|
 | 2015-08-10     | 1            | 0.1.7          | 1              | -           |
