@@ -28,3 +28,4 @@ If you run the server using the command from above, any plugin JARs can be place
 | [Forest](https://github.com/konstructs/server-plugin-forest) | This plugin grows forests | [Releases](https://github.com/konstructs/server-plugin-forest/releases) |
 | [Caves](https://github.com/konstructs/server-plugin-caves) | This plugin generates underground caves | [Releases](https://github.com/konstructs/server-plugin-caves/releases) |
 | [Ore](https://github.com/konstructs/server-plugin-ore) | This plugin generates veins of ore of different types | [Releases](https://github.com/konstructs/server-plugin-ore/releases) |
+| [Light stone](https://github.com/konstructs/server-plugin-light-stone) | This plugin includes blocks for making logic circuits that can control other blocks | [Releases](https://github.com/konstructs/server-plugin-light-stone/releases) |
