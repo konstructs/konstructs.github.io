@@ -2,10 +2,10 @@ SHELL=/bin/bash
 
 all: build run
 
-RELEASE_NUMBER=7
-RELEASE_NUMBER_NEXT=8
-RELEASE_BUILD_NUMBER=1329
-RELEASE_SERVER=0.1.18
+RELEASE_NUMBER=8
+RELEASE_NUMBER_NEXT=9
+RELEASE_BUILD_NUMBER=1486
+RELEASE_SERVER=0.1.21
 
 
 build:
@@ -37,6 +37,7 @@ version:
 	sed -i '/RR007/s/\/v[^/]\//\/${RELEASE_SERVER}\//g' download.md
 	sed -i '/RR007/s/-server-.*.jar/-server-${RELEASE_SERVER}.jar/g' download.md
 	sed -i '/RR007/s/Server .*</Server ${RELEASE_SERVER}</g' download.md
+	sed -i '/RR007/s/download\/v[^/]*/download\/v${RELEASE_SERVER}/g' download.md
 
 	# documentation/roadmap.md
 	sed -i '/RR008/s/- Release .*\]/- Release ${RELEASE_NUMBER_NEXT}\]/g' documentation/roadmap.md
