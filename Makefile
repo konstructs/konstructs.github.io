@@ -37,6 +37,7 @@ version:
 	sed -i '/RR007/s/\/v[^/]\//\/${RELEASE_SERVER}\//g' download.md
 	sed -i '/RR007/s/-server-.*.jar/-server-${RELEASE_SERVER}.jar/g' download.md
 	sed -i '/RR007/s/Server .*</Server ${RELEASE_SERVER}</g' download.md
+	sed -i '/RR007/s/download\/v[^/]*/download\/v${RELEASE_SERVER}/g' download.md
 
 	# documentation/roadmap.md
 	sed -i '/RR008/s/- Release .*\]/- Release ${RELEASE_NUMBER_NEXT}\]/g' documentation/roadmap.md
