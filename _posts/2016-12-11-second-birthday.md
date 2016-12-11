@@ -29,8 +29,8 @@ client, the code was not removed at this point.
 
 We did focus a lot on the server in the beginning and you can read
 more about our initial development [here](/the-start/). The work
-culminated in the initial [/release-1/](playable release of the
-game). What makes me really happy looking at those screenshots is that
+culminated in the initial [playable release of the
+game](/release-1/). What makes me really happy looking at those screenshots is that
 the they are all from our server and everything is still there. We
 have kept our promise to never deprecate worlds, always making all the
 newest blocks available everywhere, even though the world was
