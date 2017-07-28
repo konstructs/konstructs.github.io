@@ -23,7 +23,7 @@ problems but overall it works really well!
 # Architecture
 
 The game is based in two parts, a client written in C that we forked from
-Fogleman (and since then partly rewriten to C++), and a server written in Scala. To test the game you can connect to our public server, but for a private world, you need both.
+Fogleman (and since then mostly rewriten to C++), and a server written in Scala. To test the game you can connect to our public server, but for a private world, you need both.
 
 ## The client
 
