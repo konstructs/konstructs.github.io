@@ -22,7 +22,7 @@ When it comes to the server the thing we need to improve is ease of use, it's a 
 We played with the idea to rewrite the client in something else, like Go or Rust but decided that C++ ecosystem and all the available integrations are worth a little pain. We also looked what options of graphic engines to use out there, but at the moment that's not a focus. Future will tell!
 
 * We will drop NanoGUI from the project, we only used a small part of the project and without NanoGUI it will be easier to upgrade to a newer version of GLFW, support of Wayland is then possible.
-* We plan to implement the ability for plugins to register GUI textures and display them on the inventory UI, this will make interaction with blocks with inventories more interesting, especially machines. Everything needed to implement buttons are also there. 
+* We plan to implement the ability for plugins to register GUI textures and display them on the inventory UI, this will make interaction with blocks with inventories more interesting, especially machines. Everything needed to implement buttons are also there.
 * Block inventory management will be improved, we plan to make a system that standardizes a default input and output inventory to blocks that support it. This allows other blocks to pick up or place items from or into other blocks. This make things like transport pipes or machines that places the output in a chest possible.
 * We plan to support complex models registered by plugins, this allows plugin writers to make nicer looking blocks, if you like a tea kettle shaped block this will be possible! This will of course have a performance impact so we will probably limit the model render distance.
 
@@ -36,4 +36,4 @@ It is probably also a good idea to think about distribution under Windows, maybe
 
 ## Over the horizon
 
-Which the above done we plan to focus on gaming experience and fun, this work will mainly be focused around plugins, the official distribution and play.konstructs.org with is the official server.
+With the above done we plan to focus on gaming experience and fun, this work will mainly be focused around plugins, the official distribution and play.konstructs.org which is the official server.
