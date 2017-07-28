@@ -12,8 +12,8 @@ Minetest you will be familiar with the basic concept of this game.
 
 ## Getting started
 
-- [Download the client](http://www.konstructs.org/download/).
-- Connect the client to <code>play.konstructs.org</code> (this is the
+- [Download the client](/download/)
+- Connect the client to `play.konstructs.org` (this is the
   default address)
 - Choose a username and a password
 
