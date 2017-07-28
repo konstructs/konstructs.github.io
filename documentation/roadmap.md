@@ -31,6 +31,7 @@ The server core APIs need to be finalized and documented to provide the needed t
 
 <!-- RR009 -->- [konstructs/server - Release 10](https://github.com/konstructs/server/milestones/Release%2010)
 - [konstructs/server - Undecided - Short-term](https://github.com/konstructs/server/milestones/Undecided%20-%20Short-term)
+- [konstructs/server-plugins-*](https://github.com/konstructs?utf8=%E2%9C%93&q=server-plugin&type=&language=java)
 
 ## Long term goals
 
