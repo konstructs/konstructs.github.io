@@ -11,9 +11,9 @@ You may wonder in which direction the project is heading? Our overall [roadmap](
 
 > Make a voxel based game that’s focused on massive multiplayer, a simple client with most of the game logic in the server. The server is extendable with plugins.
 
-This is still true, our server is powerful and with Akka it spawns most things inside Actors that scales perfectly over multiple cores, or possible even several servers. The plugins are powerful and have control over both the world, interactions with the player and even has control over the players UI. Most of the core logic that makes the game fun, and a game, are written with the plugin system. Some of the plugins are bundled with the server, others are written in Java and are hosted as separate projects under the [Konstructs organization on GitHub](https://github.com/konstructs).
+Our server is powerful and with Akka, it spawns most things inside Actors that scales perfectly over multiple cores, or possible even several servers. The plugins are powerful and have control over both the world, interactions with the player and even has control over the players UI. Most of the core logic that makes the game fun, and a game, are written with the plugin system. Some of the plugins are bundled with the server, others are written in Java and are hosted as separate projects under the [Konstructs organization on GitHub](https://github.com/konstructs).
 
-When it comes to the server the thing we need to improve is easy of use, it's a little hard to understand how to get started with a new plugin, and it can be a little tricky as a server administrator to configure and manage the plugins. To solve this we plan to:
+When it comes to the server the thing we need to improve is ease of use, it's a little hard to understand how to get started with a new plugin, and it can be a little tricky as a server administrator to configure and manage the plugins. To solve this we plan to:
 
 * Improve documentation, the public API has excellent documentation but some interfaces need to be improved and we also need examples and guides how to get started. There will be a few quickstart guides soon!
 * Expose more internal features in the public API, most inventory logic is still part of the internal API, we hope to move it to the public API soon.
