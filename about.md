@@ -22,27 +22,21 @@ problems but overall it works really well!
 
 # Architecture
 
-The game is based in two parts, a client written in C that we forked from
-Fogleman (and since then mostly rewriten to C++), and a server written in Scala. To test the game you can connect to our public server, but for a private world, you need both.
+The game is based in three parts, a client written in C++, a server core written in Scala that
+loads several Java plugins that uses a well defined API. All these together creates a interesting game.
 
 ## The client
 
-Our client processes and receives huge amount of block data from the server,
-we have added both compression and a binary extension to speed it up.
+Our client processes and receives huge amount of block data from the server.
+Block data contains for example things like light value, rotation and damage information.
+A complete list of block types and block textures are sent to the client.
 
-The client is really stupid, we have removed concepts like block placements.
-The client only sends "clicked at x, y, z with the right mouse button" to the
-server. The server then takes the appropriate action like a block placement,
-removal or maybe opens a chest.
+<div style="float: right; padding: 1em"><iframe width="280" height="158" src="https://www.youtube.com/embed/3p0psG22NRE" frameborder="0" allowfullscreen></iframe></div>
 
-We have also added a inventory, backpacks (chest) and crafting.
-All managed by the server. We have plans to extend and add machines later on.
+We have also added a inventory UI that enables everything from backpacks (chest) and crafting.
+All managed by the server, the client has very little idea what's going on!
 
-The available blocks and textures are send from the server, this make it possible to add blocks to the game with the help of server plugins.
-
-All these things means that we will be able to play at different servers with
-a wide range of mods with the same client. It will also be extremely hard to
-cheat when most of the logic is located in the server.
+Because available blocks and textures are send from the server, this make it possible to add blocks to the game with the help of server plugins. The same is true for the inventory UI, plugins can customize it with no need to change the client. You can use the same client to connect to two different servers with a completely different gaming experiences.
 
 ## The server
 
@@ -61,6 +55,7 @@ Since we can manage a huge amount of blocks, it makes sense to not limit world i
 
 ### Extendability - plugins are actors
 
+<div style="float: right; padding: 1em"><iframe width="280" height="158" src="https://www.youtube.com/embed/MT1qQKVMK1I" frameborder="0" allowfullscreen></iframe></div>
 Since the server is at is core just a set of actors exchanging messages every plugin is created equal. Message interfaces are provided to interact with the block world as well as with players. Persistence are provide by actors capable of loading and storing JSON data on behalf of other actors. It is therefore easy to create a plugin that keeps out of the way of other plugins.
 
 ### Server driven game logic - true multiplayer game
