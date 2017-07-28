@@ -22,21 +22,20 @@ problems but overall it works really well!
 
 # Architecture
 
-The game is based in three parts, a client written in C++, a server core written in Scala that
-loads several Java plugins that uses a well defined API. All these together creates a interesting game.
+The game is based on three parts, a [client written in C++](https://github.com/konstructs/client), a [server core written in Scala](https://github.com/konstructs/server) and [lots of plugins](/plugins/) that are loaded by the server. Plugins are written in Java or Scala and use a well defined Java API. Together these parts creates a very interesting game.
 
 ## The client
 
 Our client processes and receives huge amount of block data from the server.
-Block data contains for example things like light value, rotation and damage information.
-A complete list of block types and block textures are sent to the client.
+Block data contains things like light value, rotation and damage information.
+A complete list of block types and block textures are compiled by the server
+and sent to the client.
 
 <div style="float: right; padding: 1em"><iframe width="280" height="158" src="https://www.youtube.com/embed/3p0psG22NRE" frameborder="0" allowfullscreen></iframe></div>
 
-We have also added a inventory UI that enables everything from backpacks (chest) and crafting.
-All managed by the server, the client has very little idea what's going on!
+We have also added an inventory UI (or Heads Up Display, HUD) that enables plugins to display anything from backpacks or chests to advanced crafting tables or specialized machines. This is all managed from the server, the client has very little idea what's going on!
 
-Because available blocks and textures are send from the server, this make it possible to add blocks to the game with the help of server plugins. The same is true for the inventory UI, plugins can customize it with no need to change the client. You can use the same client to connect to two different servers with a completely different gaming experiences.
+Because available blocks and textures are sent from the server, this make it possible to add blocks to the game with the help of server plugins. The same is true for the inventory UI, plugins can customize it without any need to update the client. You can use the same client to connect to two different servers with a completely different gaming experiences.
 
 ## The server
 
