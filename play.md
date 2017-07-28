@@ -40,8 +40,9 @@ can walk through and some you can see through. Have a look around!
 ## Interacting with the world
 
 You can interact with the world in three ways. The two first ways are
-fairly intuitive. Press the <code>left mouse button</code> to pick up
-a block. It will be put into your belt. To put a block back into the
+fairly intuitive. Press the <code>left mouse button</code> to damage
+a block. It will be picked up and put into your belt when it breaks.
+To put a block back into the
 world, press the <code>right mouse button</code>. You can select which
 of the slot in your belt you want to use by using either the
 <code>buttons 1-9</code> or the <code>scroll wheel</code>. You now
