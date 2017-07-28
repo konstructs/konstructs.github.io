@@ -1,4 +1,5 @@
 SHELL=/bin/bash
+DOCKER ?= docker
 
 all: build run
 
@@ -7,15 +8,14 @@ RELEASE_NUMBER_NEXT=10
 RELEASE_BUILD_NUMBER=1501
 RELEASE_SERVER=0.1.23
 
-
 build:
-	docker build -t konstructs_www .
+	${DOCKER} build -t konstructs_www .
 
 run: build
-	docker run -ti -v $$PWD:/www/site -p 4000:4000 konstructs_www
+	${DOCKER} run -ti -v $$PWD:/www/site -p 4000:4000 konstructs_www
 
 debug: build
-	docker run -ti -v $$PWD:/www/site -p 4000:4000 konstructs_www \
+	${DOCKER} run -ti -v $$PWD:/www/site -p 4000:4000 konstructs_www \
 		bash
 
 version:
