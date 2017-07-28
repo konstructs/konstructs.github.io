@@ -8,7 +8,7 @@ permalink: play/
 
 Konstructs is a creative game that lets you build and evolve a world
 constructed from big cubes. If you have played Minecraft or
-Infiniminer you will be familiar with the basic concept of this game.
+Minetest you will be familiar with the basic concept of this game.
 
 ## Getting started
 
