@@ -17,10 +17,10 @@ To craft something use the crafting area. The result (if the pattern matches a c
 
 Here are the recipes that comes with the core server running at `play.konstructs.org`. The server is highly customizable so the receipts may change from server to server.
 
-## Planks
+<em>Note: This page is out of date and needs to be updated. Nevertheless, most of the recipes on this page are still valid.</em>
 
-Note: This page it out of date and needs to be updated. Most of the receipts on this
-page are still valid.
+
+## Planks
 
 ![Planks](/images/documentation/planks.png)
 <p class="image-with-caption">
