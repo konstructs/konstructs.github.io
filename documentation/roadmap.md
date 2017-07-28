@@ -52,7 +52,7 @@ There are plenty of options that we need help with, I will list a few of them he
 
 * If you love backend programming in Scala with actors the server is a interesting place to be. Looking for something to do, I recommend to [check out the issues](https://github.com/konstructs/server/issues).
 
-* Is graphic design your thing? We needs plenty of good looking blocks and UI elements. Improvements and additions are always welcome. Is the web more of your thing? Improvements to the web page is always welcome.
+* Is graphic design your thing? We needs plenty of good looking blocks and UI elements. Improvements and additions are always welcome. Is the web more of your thing? Improvements to the [web page](https://github.com/konstructs/konstructs.github.io) is always welcome.
 
 * Write a plugin! We needs hundreds of plugins to make this game interesting. It can be really simple things like a new block, to really advanced things like a mob AI. Plugins can be written in both Scala and Java.
 
