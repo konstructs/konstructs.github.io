@@ -20,9 +20,6 @@ debug: build
 
 version:
 
-	# _includes/download.html
-	sed -i '/RR001/s/\/[0-9]\+\//\/${RELEASE_NUMBER}\//g' _includes/download.html
-
 	# download.md
 	sed -i '/RR004/s/\/[0-9]\+\//\/${RELEASE_NUMBER}\//g' download.md
 	sed -i '/RR004/s/Release [0-9]\+/Release ${RELEASE_NUMBER}/g' download.md
