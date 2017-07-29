@@ -8,12 +8,12 @@ permalink: play/
 
 Konstructs is a creative game that lets you build and evolve a world
 constructed from big cubes. If you have played Minecraft or
-Infiniminer you will be familiar with the basic concept of this game.
+Minetest you will be familiar with the basic concept of this game.
 
 ## Getting started
 
-- [Download the client](http://www.konstructs.org/download/).
-- Connect the client to <code>play.konstructs.org</code> (this is the
+- [Download the client](/download/)
+- Connect the client to `play.konstructs.org` (this is the
   default address)
 - Choose a username and a password
 
@@ -40,8 +40,9 @@ can walk through and some you can see through. Have a look around!
 ## Interacting with the world
 
 You can interact with the world in three ways. The two first ways are
-fairly intuitive. Press the <code>left mouse button</code> to pick up
-a block. It will be put into your belt. To put a block back into the
+fairly intuitive. Press the <code>left mouse button</code> to damage
+a block. It will be picked up and put into your belt when it breaks.
+To put a block back into the
 world, press the <code>right mouse button</code>. You can select which
 of the slot in your belt you want to use by using either the
 <code>buttons 1-9</code> or the <code>scroll wheel</code>. You now
